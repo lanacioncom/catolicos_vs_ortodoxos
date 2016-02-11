@@ -54,9 +54,17 @@ var OL = {
 
             if(empresa == 0){
                 $(".switcher").addClass("der");
+                $("div.fotoCato").addClass("ver");
+                $("div.fotoOrto").removeClass("ver");
+                $("div.textoCato").addClass("ver");
+                $("div.textoOrto").removeClass("ver");
                 empresa = 1;
             }else{
                 $(".switcher").removeClass("der");
+                $("div.fotoCato").removeClass("ver");
+                $("div.fotoOrto").addClass("ver");
+                $("div.textoCato").removeClass("ver");
+                $("div.textoOrto").addClass("ver");
                 empresa = 0;
             };
 

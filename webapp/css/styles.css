@@ -148,3 +148,6 @@ div.contenido .switcher.der::before{
 .activo{
     color: #000;
 }
+.ver{
+    display: none;
+}
