@@ -1,0 +1,13 @@
+{
+  "name": "Project LN",
+  "version": "0.0.0",
+  "authors": [
+    "Lanacion.com.ar"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "d3": "3.5.6",
+    "underscore": "~1.8.3",
+    "jquery": "2.1.4"
+  }
+}
