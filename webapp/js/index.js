@@ -56,15 +56,19 @@ var OL = {
                 $(".switcher").addClass("der");
                 $("div.fotoCato").addClass("ver");
                 $("div.fotoOrto").removeClass("ver");
-                $("div.textoCato").addClass("ver");
-                $("div.textoOrto").removeClass("ver");
+               /* $("div.textoCato").addClass("ver");
+                $("div.textoOrto").removeClass("ver");*/
+                $("div.textoCato").fadeOut(200);
+                $("div.textoOrto").delay(100).fadeIn(200);
                 empresa = 1;
             }else{
                 $(".switcher").removeClass("der");
                 $("div.fotoCato").removeClass("ver");
                 $("div.fotoOrto").addClass("ver");
-                $("div.textoCato").removeClass("ver");
-                $("div.textoOrto").addClass("ver");
+                /*$("div.textoCato").removeClass("ver");
+                $("div.textoOrto").addClass("ver");*/
+                $("div.textoOrto").fadeOut(200);
+                $("div.textoCato").delay(200).fadeIn(200);
                 empresa = 0;
             };
 
