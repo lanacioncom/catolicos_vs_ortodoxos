@@ -68,7 +68,7 @@ var OL = {
                 /*$("div.textoCato").removeClass("ver");
                 $("div.textoOrto").addClass("ver");*/
                 $("div.textoOrto").fadeOut(200);
-                $("div.textoCato").delay(200).fadeIn(200);
+                $("div.textoCato").delay(100).fadeIn(200);
                 empresa = 0;
             };
 
