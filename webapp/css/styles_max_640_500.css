@@ -30,4 +30,8 @@
         margin-left: 36%;
         margin-bottom: 10px;
     }
+
+    div.fotoOrto{
+        background-position: -64px -46px;
+    }
 }

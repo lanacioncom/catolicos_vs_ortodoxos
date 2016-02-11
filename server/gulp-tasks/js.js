@@ -20,6 +20,7 @@ gulp.task('js_vendor', function(){
         // 'lib/underscore/underscore-min.js',
         // 'lib/d3/d3.min.js',
         'lib/jquery/dist/jquery.min.js',
+        'lib/hammerjs/hammer.min.js'
         // './webapp/libs/jquery.nicescroll/dist/jquery.nicescroll.min.js'
         ], { cwd: conf.app_cwd })
         .pipe(uglify())
