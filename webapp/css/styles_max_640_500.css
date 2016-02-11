@@ -5,5 +5,29 @@
 }
 
 @media screen and (max-width: 500px) {
+    .texto{
+        max-height: 350px;
+        width: 80% !important;
+        overflow: auto;
+    }
 
+    div.textoCato, div.textoOrto {
+        padding-right: 0px;
+        margin-right: 10%;
+    }
+
+    div.contenedor header h1 {
+        line-height: 1.4;
+    }
+
+    div.fotoCato, div.fotoOrto{
+        width: 80px;
+        height: 80px;
+        border-radius: 100px;
+        background-position: -104px -16px;
+        background-size: 270px;
+        border: 1px solid #dadada;
+        margin-left: 36%;
+        margin-bottom: 10px;
+    }
 }
